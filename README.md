@@ -1,5 +1,14 @@
 # Lottery Smart Contract
 
+## Website Access
+To view the live version of the lottery smart contract application, visit [Lottery Smart Contract Website](https://lottery1.andreidev.site/). 
+
+**Login Credentials**:
+- Username: `andrei`
+- Password: `andrei`
+
+Please use these credentials to access and interact with the application.
+
 ## Overview
 This repository contains a **Solidity-based smart contract** for a simple blockchain lottery system. The contract is designed for the Ethereum network and utilizes fundamental concepts of Solidity and Ethereum, such as ether transactions, randomness, and basic access control.
 
@@ -28,6 +37,16 @@ This repository contains a **Solidity-based smart contract** for a simple blockc
 ## Security Measures
 - **Owner Restriction**: Critical functions like selecting a winner are restricted to the contract owner.
 - **Minimum Entry Fee**: A minimum amount of ether is required to enter the lottery, preventing spam entries.
+
+## Deployment
+The smart contract was deployed to the Goerli Testnet using Truffle and Infura. This approach allowed for a seamless deployment process and easy interaction with the Ethereum network.
+
+### Steps for Deployment
+1. Install a Solidity compiler and Ethereum development tools like Truffle.
+2. Set up an Infura account and create a new project to obtain an Infura API key.
+3. Configure Truffle to connect to the Goerli Testnet using the Infura endpoint.
+4. Compile the contract using the Solidity compiler via Truffle.
+5. Deploy the contract to the Goerli Testnet using Truffle and the Infura API key.
 
 ## How to Deploy
 1. Install a Solidity compiler and Ethereum development tools like Truffle or Hardhat.
